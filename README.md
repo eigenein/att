@@ -1,2 +1,1 @@
-# att
-Themes for Telegram for Android
+# Themes for Telegram for Android
