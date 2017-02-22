@@ -16,4 +16,5 @@ The theme is intended to be in compliance with Material Design guidelines as muc
 
 ## Contributing
 
-`*.attheme` files must be in sync with the corresponding scripts.
+* Keep `THEME` lists sorted.
+* `*.attheme` files must be in sync with the corresponding scripts.
