@@ -13,10 +13,12 @@ APP_BAR_COLOR = DARK_APP_BAR_COLOR | SOLID_ALPHA
 BACKGROUND_COLOR = DARK_BACKGROUND_COLOR | SOLID_ALPHA
 DIVIDER_COLOR = LIGHT_TEXT_COLOR | LIGHT_TEXT_DIVIDER_ALPHA
 HINT_COLOR = LIGHT_TEXT_COLOR | LIGHT_TEXT_HINT_ALPHA
+LIGHT_ACCENT_COLOR = BLUE_A100
 LIGHT_SELECTED_COLOR = LIGHT_TEXT_COLOR | RIPPLE_ALPHA
 PRIMARY_TEXT_COLOR = LIGHT_TEXT_COLOR | LIGHT_TEXT_PRIMARY_ALPHA
 SECONDARY_TEXT_COLOR = LIGHT_TEXT_COLOR | LIGHT_TEXT_SECONDARY_ALPHA
 SOLID_ACCENT_COLOR = ACCENT_COLOR | SOLID_ALPHA
+SOLID_LIGHT_ACCENT_COLOR = LIGHT_ACCENT_COLOR | SOLID_ALPHA
 
 THEME = [
     ("actionBarActionModeDefault", APP_BAR_COLOR),
@@ -52,10 +54,10 @@ THEME = [
     ("chat_inBubbleSelected", LIGHT_SELECTED_COLOR),
     ("chat_inBubbleShadow", BACKGROUND_COLOR),
     ("chat_inInstant", ACTIVE_ICON_COLOR),
-    ("chat_inPreviewInstantText", SOLID_ACCENT_COLOR),
+    ("chat_inPreviewInstantText", SOLID_LIGHT_ACCENT_COLOR),
     ("chat_inTimeText", SECONDARY_TEXT_COLOR),
-    ("chat_messageLinkIn", SOLID_ACCENT_COLOR),
-    ("chat_messageLinkOut", SOLID_ACCENT_COLOR),
+    ("chat_messageLinkIn", SOLID_LIGHT_ACCENT_COLOR),
+    ("chat_messageLinkOut", SOLID_LIGHT_ACCENT_COLOR),
     ("chat_messagePanelBackground", DARK_CARD_COLOR | SOLID_ALPHA),
     ("chat_messagePanelHint", HINT_COLOR),
     ("chat_messagePanelIcons", ACTIVE_ICON_COLOR),
@@ -72,7 +74,7 @@ THEME = [
     ("chat_wallpaper", BACKGROUND_COLOR),
     ("chats_actionBackground", SOLID_ACCENT_COLOR),
     ("chats_actionIcon", ACTIVE_ICON_COLOR),
-    ("chats_actionMessage", SOLID_ACCENT_COLOR),
+    ("chats_actionMessage", SOLID_LIGHT_ACCENT_COLOR),
     ("chats_actionPressedBackground", LIGHT_SELECTED_COLOR),
     ("chats_date", SECONDARY_TEXT_COLOR),
     ("chats_menuBackground", BACKGROUND_COLOR),
@@ -85,7 +87,7 @@ THEME = [
     ("chats_muteIcon", ACTIVE_ICON_COLOR),
     ("chats_name", PRIMARY_TEXT_COLOR),
     ("chats_nameIcon", ACTIVE_ICON_COLOR),
-    ("chats_nameMessage", SOLID_ACCENT_COLOR),
+    ("chats_nameMessage", SOLID_LIGHT_ACCENT_COLOR),
     ("chats_pinnedIcon", ACTIVE_ICON_COLOR),
     ("chats_pinnedOverlay", LIGHT_TEXT_COLOR | LIGHT_TEXT_DIVIDER_ALPHA),
     ("chats_sendClock", GREEN_500 | SOLID_ALPHA),
@@ -94,7 +96,7 @@ THEME = [
     ("chats_unreadCounterMuted", LIGHT_TEXT_COLOR | LIGHT_TEXT_DIVIDER_ALPHA),
     ("chats_unreadCounterText", PRIMARY_TEXT_COLOR),
     ("chats_verifiedBackground", SOLID_ACCENT_COLOR),
-    ("chats_verifiedCheck", LIGHT_TEXT_COLOR),
+    ("chats_verifiedCheck", ACTIVE_ICON_COLOR),
     ("divider", DIVIDER_COLOR),
     ("emptyListPlaceholder", SECONDARY_TEXT_COLOR),
     ("graySection", DARK_CARD_COLOR | SOLID_ALPHA),
@@ -111,7 +113,7 @@ THEME = [
     ("windowBackgroundGrayShadow", BACKGROUND_COLOR),
     ("windowBackgroundWhite", BACKGROUND_COLOR),
     ("windowBackgroundWhiteBlackText", PRIMARY_TEXT_COLOR),
-    ("windowBackgroundWhiteBlueHeader", SOLID_ACCENT_COLOR),
+    ("windowBackgroundWhiteBlueHeader", LIGHT_ACCENT_COLOR | LIGHT_TEXT_SECONDARY_ALPHA),
     ("windowBackgroundWhiteGrayIcon", ACTIVE_ICON_COLOR),
     ("windowBackgroundWhiteGrayText", SECONDARY_TEXT_COLOR),
     ("windowBackgroundWhiteGrayText2", SECONDARY_TEXT_COLOR),
