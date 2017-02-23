@@ -149,6 +149,7 @@ chats_actionBackground=#FF448AFF
 chats_actionIcon=#FFFFFFFF
 chats_actionMessage=#FF82B1FF
 chats_actionPressedBackground=#42FFFFFF
+chats_attachMessage=#FF82B1FF
 chats_date=#B3FFFFFF
 chats_draft=#FFF44336
 chats_menuBackground=#FF303030
