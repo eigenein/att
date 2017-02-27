@@ -14,7 +14,7 @@ python3 material_dark.py > 'Material Dark.attheme'
 
 The theme is intended to be in compliance with Material Design guidelines as much as possible.
 
-![Chats](docs/Material Dark Chats.png)![Chat](docs/Material Dark Chat.png)
+![Chats](docs/Material Dark.png)
 
 ## Contributing
 
